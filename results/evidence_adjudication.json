@@ -1,0 +1,46 @@
+{
+  "reviewer": "Codex; post-test source/evidence review",
+  "benchmark_changed": false,
+  "original_automatic_metrics_preserved": true,
+  "scope": "Supplementary evidence adjudication; no retrieval rerun or parameter change",
+  "case": {
+    "strategy": "A",
+    "split": "test",
+    "question_id": "test_04",
+    "chunk_id": "ptbv_report_p068_c001",
+    "page": 68,
+    "rank": 1,
+    "automatic_hit": false,
+    "assisted_adjudicated_hit": true,
+    "reason": "Same source/page; the retrieved chunk states both requested survey dates in equivalent wording. Original gold quote selected the preceding paragraph."
+  },
+  "automatic_test_metrics": {
+    "A": {
+      "hit1": "3/5",
+      "hit3": "3/5"
+    },
+    "B": {
+      "hit1": "3/5",
+      "hit3": "4/5"
+    },
+    "C": {
+      "hit1": "4/5",
+      "hit3": "4/5"
+    }
+  },
+  "assisted_adjudicated_test_metrics": {
+    "A": {
+      "hit1": "4/5",
+      "hit3": "4/5"
+    },
+    "B": {
+      "hit1": "3/5",
+      "hit3": "4/5"
+    },
+    "C": {
+      "hit1": "4/5",
+      "hit3": "4/5"
+    }
+  },
+  "human_submitted_scores_unchanged": true
+}

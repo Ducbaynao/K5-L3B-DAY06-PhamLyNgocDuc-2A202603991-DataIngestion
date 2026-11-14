@@ -1,0 +1,31 @@
+{
+  "run_id": "run_A_ingest_20261114_105741",
+  "timestamp": "20261114_105741",
+  "strategy": "A",
+  "action": "ingest",
+  "status": "completed",
+  "model": "text-embedding-3-small",
+  "dimensions": 1536,
+  "pdf_sha256": "3382820c1edb8c2598bc3c033742e864bf7848f5e9485f6dd3ca1e8391014742",
+  "corpus_sha256": "003f1b47360f6a73b535e41524ec8d9ab91ad90e7220416147682787f91834b2",
+  "chunk_config": {
+    "chunking": "fixed_size",
+    "chunk_size": 500,
+    "overlap": 50
+  },
+  "total_chunks": 375,
+  "timings": {
+    "chunking_time_seconds": 3.38,
+    "embedding_time_seconds": 6.07,
+    "db_write_time_seconds": 1.09,
+    "total_ingest_time_seconds": 10.55
+  },
+  "api_usage": {
+    "api_calls": 3,
+    "prompt_tokens": 81855,
+    "total_tokens": 81855,
+    "cache_hits": 0,
+    "cache_misses": 375
+  },
+  "cost": "chưa xác định (cần bảng giá API chính thức được xác minh)"
+}

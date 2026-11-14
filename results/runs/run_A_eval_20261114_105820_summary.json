@@ -1,0 +1,26 @@
+{
+  "total_queries": 15,
+  "hit_1_count": 7,
+  "hit_1_ratio": 0.4666666666666667,
+  "hit_1_formatted": "7/15 (46.7%)",
+  "hit_3_count": 11,
+  "hit_3_ratio": 0.7333333333333333,
+  "hit_3_formatted": "11/15 (73.3%)",
+  "eval_run_id": "run_A_eval_20261114_105820",
+  "ingest_run_id": "run_A_ingest_20261114_105804",
+  "strategy": "A",
+  "split": "dev",
+  "embedding_model": "text-embedding-3-small",
+  "dimensions": 1536,
+  "total_chunks_in_store": 375,
+  "eval_time_seconds": 5.18,
+  "eval_api_usage": {
+    "api_calls": 15,
+    "prompt_tokens": 908,
+    "total_tokens": 908,
+    "cache_hits": 0,
+    "cache_misses": 15
+  },
+  "ingest_summary": {},
+  "estimated_cost": "chưa xác định (cần bảng giá API chính thức được xác minh)"
+}

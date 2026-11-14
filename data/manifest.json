@@ -1,0 +1,470 @@
+{
+  "source_id": "ptbv_report",
+  "title": "CÁC NHÂN TỐ ẢNH HƯỞNG TỚI HOẠT ĐỘNG CÔNG BỐ BÁO CÁO PHÁT TRIỂN BỀN VỮNG TẠI CÁC DOANH NGHIỆP NIÊM YẾT TRÊN SÀN CHỨNG KHOÁN VIỆT NAM",
+  "subtitle": "Báo cáo tổng kết đề tài tham gia giải thưởng Nghiên cứu khoa học sinh viên năm 2024, Trường Đại học Kinh tế Quốc dân",
+  "source_path_or_url": "data/raw/ptbv_report.pdf",
+  "source_origin": "Tài liệu học tập/nghiên cứu tải từ Studocu (tên file gốc: [studocu.com] - Báo cáo NCKH - Các Nhân Tố tác động đến Công Bố Báo Cáo PTBV 2024.pdf); không có URL chính thức được kiểm chứng độc lập nên không tự tạo URL.",
+  "accessed_at": "2026-11-14",
+  "license_or_permission": "Chưa xác minh (unverified) - tài liệu nghiên cứu sinh viên từ nền tảng chia sẻ học liệu Studocu, chưa có bằng chứng giấy phép mở/quyền tái phân phối; file PDF gốc và trích xuất text chỉ lưu local, không commit lên git.",
+  "total_physical_pages": 153,
+  "sha256": "3382820c1edb8c2598bc3c033742e864bf7848f5e9485f6dd3ca1e8391014742",
+  "corpus_selection_rules": "Chọn 84 trang nội dung nghiên cứu chính từ Chương 1 đến Chương 5 (trang PDF 18-101). Loại trừ trang bìa, mục lục, danh mục từ viết tắt và bảng biểu mở đầu (trang 1-17); loại trừ kết luận chung, tài liệu tham khảo và phụ lục khảo sát (trang 102-153).",
+  "page_indexing_convention": "Quy ước số trang là số trang PDF vật lý bắt đầu từ 1 (1-based physical page number), đồng nhất cho manifest, benchmark gold_page và metadata chunk. Khi trích xuất bằng thư viện (pypdf), chỉ số 0-based được tính đúng một lần bằng page - 1. Ví dụ: trang PDF 64 tương ứng trang in 53.",
+  "selected_pages_count": 84,
+  "valid_content_pages_count": 84,
+  "total_normalized_characters": 153080,
+  "sections": {
+    "chuong_1": {
+      "page_start": 18,
+      "page_end": 36,
+      "page_count": 19,
+      "title": "Tổng quan tình hình nghiên cứu"
+    },
+    "chuong_2": {
+      "page_start": 37,
+      "page_end": 51,
+      "page_count": 15,
+      "title": "Cơ sở lý thuyết"
+    },
+    "chuong_3": {
+      "page_start": 52,
+      "page_end": 73,
+      "page_count": 22,
+      "title": "Phương pháp nghiên cứu"
+    },
+    "chuong_4": {
+      "page_start": 74,
+      "page_end": 93,
+      "page_count": 20,
+      "title": "Kết quả nghiên cứu và bàn luận"
+    },
+    "chuong_5": {
+      "page_start": 94,
+      "page_end": 101,
+      "page_count": 8,
+      "title": "Kết luận và hàm ý chính sách"
+    }
+  },
+  "pages": [
+    {
+      "page": 18,
+      "section": "chuong_1",
+      "char_count": 2322
+    },
+    {
+      "page": 19,
+      "section": "chuong_1",
+      "char_count": 2400
+    },
+    {
+      "page": 20,
+      "section": "chuong_1",
+      "char_count": 2457
+    },
+    {
+      "page": 21,
+      "section": "chuong_1",
+      "char_count": 2391
+    },
+    {
+      "page": 22,
+      "section": "chuong_1",
+      "char_count": 2525
+    },
+    {
+      "page": 23,
+      "section": "chuong_1",
+      "char_count": 2294
+    },
+    {
+      "page": 24,
+      "section": "chuong_1",
+      "char_count": 2477
+    },
+    {
+      "page": 25,
+      "section": "chuong_1",
+      "char_count": 2176
+    },
+    {
+      "page": 26,
+      "section": "chuong_1",
+      "char_count": 2178
+    },
+    {
+      "page": 27,
+      "section": "chuong_1",
+      "char_count": 2472
+    },
+    {
+      "page": 28,
+      "section": "chuong_1",
+      "char_count": 2586
+    },
+    {
+      "page": 29,
+      "section": "chuong_1",
+      "char_count": 2487
+    },
+    {
+      "page": 30,
+      "section": "chuong_1",
+      "char_count": 2543
+    },
+    {
+      "page": 31,
+      "section": "chuong_1",
+      "char_count": 2316
+    },
+    {
+      "page": 32,
+      "section": "chuong_1",
+      "char_count": 2366
+    },
+    {
+      "page": 33,
+      "section": "chuong_1",
+      "char_count": 2492
+    },
+    {
+      "page": 34,
+      "section": "chuong_1",
+      "char_count": 1123
+    },
+    {
+      "page": 35,
+      "section": "chuong_1",
+      "char_count": 2272
+    },
+    {
+      "page": 36,
+      "section": "chuong_1",
+      "char_count": 123
+    },
+    {
+      "page": 37,
+      "section": "chuong_2",
+      "char_count": 2227
+    },
+    {
+      "page": 38,
+      "section": "chuong_2",
+      "char_count": 2404
+    },
+    {
+      "page": 39,
+      "section": "chuong_2",
+      "char_count": 2478
+    },
+    {
+      "page": 40,
+      "section": "chuong_2",
+      "char_count": 2281
+    },
+    {
+      "page": 41,
+      "section": "chuong_2",
+      "char_count": 2482
+    },
+    {
+      "page": 42,
+      "section": "chuong_2",
+      "char_count": 2391
+    },
+    {
+      "page": 43,
+      "section": "chuong_2",
+      "char_count": 2576
+    },
+    {
+      "page": 44,
+      "section": "chuong_2",
+      "char_count": 2483
+    },
+    {
+      "page": 45,
+      "section": "chuong_2",
+      "char_count": 2064
+    },
+    {
+      "page": 46,
+      "section": "chuong_2",
+      "char_count": 2370
+    },
+    {
+      "page": 47,
+      "section": "chuong_2",
+      "char_count": 2234
+    },
+    {
+      "page": 48,
+      "section": "chuong_2",
+      "char_count": 2207
+    },
+    {
+      "page": 49,
+      "section": "chuong_2",
+      "char_count": 2425
+    },
+    {
+      "page": 50,
+      "section": "chuong_2",
+      "char_count": 2434
+    },
+    {
+      "page": 51,
+      "section": "chuong_2",
+      "char_count": 597
+    },
+    {
+      "page": 52,
+      "section": "chuong_3",
+      "char_count": 1092
+    },
+    {
+      "page": 53,
+      "section": "chuong_3",
+      "char_count": 2484
+    },
+    {
+      "page": 54,
+      "section": "chuong_3",
+      "char_count": 2258
+    },
+    {
+      "page": 55,
+      "section": "chuong_3",
+      "char_count": 2288
+    },
+    {
+      "page": 56,
+      "section": "chuong_3",
+      "char_count": 2556
+    },
+    {
+      "page": 57,
+      "section": "chuong_3",
+      "char_count": 2195
+    },
+    {
+      "page": 58,
+      "section": "chuong_3",
+      "char_count": 2202
+    },
+    {
+      "page": 59,
+      "section": "chuong_3",
+      "char_count": 1034
+    },
+    {
+      "page": 60,
+      "section": "chuong_3",
+      "char_count": 1236
+    },
+    {
+      "page": 61,
+      "section": "chuong_3",
+      "char_count": 1128
+    },
+    {
+      "page": 62,
+      "section": "chuong_3",
+      "char_count": 966
+    },
+    {
+      "page": 63,
+      "section": "chuong_3",
+      "char_count": 1110
+    },
+    {
+      "page": 64,
+      "section": "chuong_3",
+      "char_count": 1422
+    },
+    {
+      "page": 65,
+      "section": "chuong_3",
+      "char_count": 1612
+    },
+    {
+      "page": 66,
+      "section": "chuong_3",
+      "char_count": 1884
+    },
+    {
+      "page": 67,
+      "section": "chuong_3",
+      "char_count": 2110
+    },
+    {
+      "page": 68,
+      "section": "chuong_3",
+      "char_count": 2240
+    },
+    {
+      "page": 69,
+      "section": "chuong_3",
+      "char_count": 2253
+    },
+    {
+      "page": 70,
+      "section": "chuong_3",
+      "char_count": 2017
+    },
+    {
+      "page": 71,
+      "section": "chuong_3",
+      "char_count": 1882
+    },
+    {
+      "page": 72,
+      "section": "chuong_3",
+      "char_count": 2505
+    },
+    {
+      "page": 73,
+      "section": "chuong_3",
+      "char_count": 1898
+    },
+    {
+      "page": 74,
+      "section": "chuong_4",
+      "char_count": 968
+    },
+    {
+      "page": 75,
+      "section": "chuong_4",
+      "char_count": 1067
+    },
+    {
+      "page": 76,
+      "section": "chuong_4",
+      "char_count": 1094
+    },
+    {
+      "page": 77,
+      "section": "chuong_4",
+      "char_count": 625
+    },
+    {
+      "page": 78,
+      "section": "chuong_4",
+      "char_count": 673
+    },
+    {
+      "page": 79,
+      "section": "chuong_4",
+      "char_count": 642
+    },
+    {
+      "page": 80,
+      "section": "chuong_4",
+      "char_count": 2237
+    },
+    {
+      "page": 81,
+      "section": "chuong_4",
+      "char_count": 933
+    },
+    {
+      "page": 82,
+      "section": "chuong_4",
+      "char_count": 1191
+    },
+    {
+      "page": 83,
+      "section": "chuong_4",
+      "char_count": 412
+    },
+    {
+      "page": 84,
+      "section": "chuong_4",
+      "char_count": 1442
+    },
+    {
+      "page": 85,
+      "section": "chuong_4",
+      "char_count": 1011
+    },
+    {
+      "page": 86,
+      "section": "chuong_4",
+      "char_count": 1069
+    },
+    {
+      "page": 87,
+      "section": "chuong_4",
+      "char_count": 1298
+    },
+    {
+      "page": 88,
+      "section": "chuong_4",
+      "char_count": 714
+    },
+    {
+      "page": 89,
+      "section": "chuong_4",
+      "char_count": 1033
+    },
+    {
+      "page": 90,
+      "section": "chuong_4",
+      "char_count": 908
+    },
+    {
+      "page": 91,
+      "section": "chuong_4",
+      "char_count": 925
+    },
+    {
+      "page": 92,
+      "section": "chuong_4",
+      "char_count": 830
+    },
+    {
+      "page": 93,
+      "section": "chuong_4",
+      "char_count": 2349
+    },
+    {
+      "page": 94,
+      "section": "chuong_5",
+      "char_count": 1703
+    },
+    {
+      "page": 95,
+      "section": "chuong_5",
+      "char_count": 2282
+    },
+    {
+      "page": 96,
+      "section": "chuong_5",
+      "char_count": 2129
+    },
+    {
+      "page": 97,
+      "section": "chuong_5",
+      "char_count": 2405
+    },
+    {
+      "page": 98,
+      "section": "chuong_5",
+      "char_count": 2133
+    },
+    {
+      "page": 99,
+      "section": "chuong_5",
+      "char_count": 2384
+    },
+    {
+      "page": 100,
+      "section": "chuong_5",
+      "char_count": 2179
+    },
+    {
+      "page": 101,
+      "section": "chuong_5",
+      "char_count": 419
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# Versions used for the recorded experiment.
+psycopg[binary]==3.3.8
+pypdf==6.21.4
+python-dotenv==1.2.4
+openai==3.51.0

@@ -1,0 +1,72 @@
+{
+  "estimate_only": true,
+  "rate_usd_per_million_tokens": "0.02",
+  "rate_source": "https://developers.openai.com/api/docs/models/text-embedding-3-small",
+  "rate_checked_on": "2026-11-14",
+  "formula": "recorded prompt_tokens / 1000000 * 0.02",
+  "scope": "10 saved run summaries; standard synchronous embedding calls, excluding taxes, credits, account adjustments, failed/unrecorded calls and unrelated usage",
+  "total_recorded_prompt_tokens": 157203,
+  "total_estimated_usd": "0.00314406",
+  "runs": [
+    {
+      "run_id": "run_A_eval_20261114_105820",
+      "prompt_tokens": 908,
+      "estimated_usd": "0.00001816",
+      "summary_file": "results/runs/run_A_eval_20261114_105820_summary.json"
+    },
+    {
+      "run_id": "run_A_eval_20261114_113119",
+      "prompt_tokens": 324,
+      "estimated_usd": "0.00000648",
+      "summary_file": "results/runs/run_A_eval_20261114_113119_summary.json"
+    },
+    {
+      "run_id": "run_A_ingest_20261114_105741",
+      "prompt_tokens": 81855,
+      "estimated_usd": "0.0016371",
+      "summary_file": "results/runs/run_A_ingest_20261114_105741_summary.json"
+    },
+    {
+      "run_id": "run_A_ingest_20261114_105804",
+      "prompt_tokens": 0,
+      "estimated_usd": "0.00",
+      "summary_file": "results/runs/run_A_ingest_20261114_105804_summary.json"
+    },
+    {
+      "run_id": "run_B_eval_20261114_111917",
+      "prompt_tokens": 0,
+      "estimated_usd": "0.00",
+      "summary_file": "results/runs/run_B_eval_20261114_111917_summary.json"
+    },
+    {
+      "run_id": "run_B_eval_20261114_113129",
+      "prompt_tokens": 0,
+      "estimated_usd": "0.00",
+      "summary_file": "results/runs/run_B_eval_20261114_113129_summary.json"
+    },
+    {
+      "run_id": "run_B_ingest_20261114_111841",
+      "prompt_tokens": 74116,
+      "estimated_usd": "0.00148232",
+      "summary_file": "results/runs/run_B_ingest_20261114_111841_summary.json"
+    },
+    {
+      "run_id": "run_B_ingest_20261114_111859",
+      "prompt_tokens": 0,
+      "estimated_usd": "0.00",
+      "summary_file": "results/runs/run_B_ingest_20261114_111859_summary.json"
+    },
+    {
+      "run_id": "run_C_eval_20261114_111926",
+      "prompt_tokens": 0,
+      "estimated_usd": "0.00",
+      "summary_file": "results/runs/run_C_eval_20261114_111926_summary.json"
+    },
+    {
+      "run_id": "run_C_eval_20261114_113135",
+      "prompt_tokens": 0,
+      "estimated_usd": "0.00",
+      "summary_file": "results/runs/run_C_eval_20261114_113135_summary.json"
+    }
+  ]
+}

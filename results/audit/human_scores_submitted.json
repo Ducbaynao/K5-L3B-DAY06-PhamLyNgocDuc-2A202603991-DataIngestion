@@ -1,0 +1,216 @@
+{
+  "coherence": [
+    {
+      "anchor_id": "1",
+      "strategy": "A",
+      "human_score": "1",
+      "human_notes": ""
+    },
+    {
+      "anchor_id": "1",
+      "strategy": "B",
+      "human_score": "2",
+      "human_notes": ""
+    },
+    {
+      "anchor_id": "2",
+      "strategy": "A",
+      "human_score": "1",
+      "human_notes": ""
+    },
+    {
+      "anchor_id": "2",
+      "strategy": "B",
+      "human_score": "2",
+      "human_notes": ""
+    },
+    {
+      "anchor_id": "3",
+      "strategy": "A",
+      "human_score": "1",
+      "human_notes": ""
+    },
+    {
+      "anchor_id": "3",
+      "strategy": "B",
+      "human_score": "2",
+      "human_notes": ""
+    },
+    {
+      "anchor_id": "4",
+      "strategy": "A",
+      "human_score": "1",
+      "human_notes": ""
+    },
+    {
+      "anchor_id": "4",
+      "strategy": "B",
+      "human_score": "2",
+      "human_notes": ""
+    },
+    {
+      "anchor_id": "5",
+      "strategy": "A",
+      "human_score": "1",
+      "human_notes": ""
+    },
+    {
+      "anchor_id": "5",
+      "strategy": "B",
+      "human_score": "2",
+      "human_notes": ""
+    },
+    {
+      "anchor_id": "6",
+      "strategy": "A",
+      "human_score": "1",
+      "human_notes": ""
+    },
+    {
+      "anchor_id": "6",
+      "strategy": "B",
+      "human_score": "2",
+      "human_notes": ""
+    },
+    {
+      "anchor_id": "7",
+      "strategy": "A",
+      "human_score": "1",
+      "human_notes": ""
+    },
+    {
+      "anchor_id": "7",
+      "strategy": "B",
+      "human_score": "2",
+      "human_notes": ""
+    },
+    {
+      "anchor_id": "8",
+      "strategy": "A",
+      "human_score": "1",
+      "human_notes": ""
+    },
+    {
+      "anchor_id": "8",
+      "strategy": "B",
+      "human_score": "1",
+      "human_notes": ""
+    },
+    {
+      "anchor_id": "9",
+      "strategy": "A",
+      "human_score": "1",
+      "human_notes": ""
+    },
+    {
+      "anchor_id": "9",
+      "strategy": "B",
+      "human_score": "2",
+      "human_notes": ""
+    },
+    {
+      "anchor_id": "10",
+      "strategy": "A",
+      "human_score": "1",
+      "human_notes": ""
+    },
+    {
+      "anchor_id": "10",
+      "strategy": "B",
+      "human_score": "2",
+      "human_notes": ""
+    }
+  ],
+  "grounding": [
+    {
+      "question_id": "test_01",
+      "strategy": "A",
+      "human_score": "2",
+      "human_notes": ""
+    },
+    {
+      "question_id": "test_01",
+      "strategy": "B",
+      "human_score": "2",
+      "human_notes": ""
+    },
+    {
+      "question_id": "test_01",
+      "strategy": "C",
+      "human_score": "2",
+      "human_notes": ""
+    },
+    {
+      "question_id": "test_02",
+      "strategy": "A",
+      "human_score": "1",
+      "human_notes": ""
+    },
+    {
+      "question_id": "test_02",
+      "strategy": "B",
+      "human_score": "2",
+      "human_notes": ""
+    },
+    {
+      "question_id": "test_02",
+      "strategy": "C",
+      "human_score": "2",
+      "human_notes": ""
+    },
+    {
+      "question_id": "test_03",
+      "strategy": "A",
+      "human_score": "2",
+      "human_notes": ""
+    },
+    {
+      "question_id": "test_03",
+      "strategy": "B",
+      "human_score": "2",
+      "human_notes": ""
+    },
+    {
+      "question_id": "test_03",
+      "strategy": "C",
+      "human_score": "2",
+      "human_notes": ""
+    },
+    {
+      "question_id": "test_04",
+      "strategy": "A",
+      "human_score": "1",
+      "human_notes": ""
+    },
+    {
+      "question_id": "test_04",
+      "strategy": "B",
+      "human_score": "1",
+      "human_notes": ""
+    },
+    {
+      "question_id": "test_04",
+      "strategy": "C",
+      "human_score": "1",
+      "human_notes": ""
+    },
+    {
+      "question_id": "test_05",
+      "strategy": "A",
+      "human_score": "2",
+      "human_notes": ""
+    },
+    {
+      "question_id": "test_05",
+      "strategy": "B",
+      "human_score": "2",
+      "human_notes": ""
+    },
+    {
+      "question_id": "test_05",
+      "strategy": "C",
+      "human_score": "2",
+      "human_notes": ""
+    }
+  ]
+}

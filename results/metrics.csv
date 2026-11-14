@@ -1,0 +1,7 @@
+strategy,split,total_queries,hit_1_count,hit_1_fraction,hit_1_percent,evidence_hit_3_count,evidence_hit_3_fraction,evidence_hit_3_percent,chunks_in_store,eval_run_id,ingest_run_id,eval_time_seconds,api_calls,prompt_tokens,cache_hits,cache_misses,summary_file,cost_status
+A,dev,15,7,7/15,46.7%,11,11/15,73.3%,375,run_A_eval_20261114_105820,run_A_ingest_20261114_105804,5.18,15,908,0,15,results/eval_A_dev_summary.json,chưa xác định (cần bảng giá API chính thức)
+A,test,5,3,3/5,60.0%,3,3/5,60.0%,375,run_A_eval_20261114_113119,run_A_ingest_20261114_105804,3.44,5,324,0,5,results/eval_A_test_summary.json,chưa xác định (cần bảng giá API chính thức)
+B,dev,15,9,9/15,60.0%,12,12/15,80.0%,256,run_B_eval_20261114_111917,run_B_ingest_20261114_111859,0.57,0,0,15,0,results/eval_B_dev_summary.json,chưa xác định (cần bảng giá API chính thức)
+B,test,5,3,3/5,60.0%,4,4/5,80.0%,256,run_B_eval_20261114_113129,run_B_ingest_20261114_111859,0.19,0,0,5,0,results/eval_B_test_summary.json,chưa xác định (cần bảng giá API chính thức)
+C,dev,15,9,9/15,60.0%,12,12/15,80.0%,256,run_C_eval_20261114_111926,run_B_ingest_20261114_111859,0.56,0,0,15,0,results/eval_C_dev_summary.json,chưa xác định (cần bảng giá API chính thức)
+C,test,5,4,4/5,80.0%,4,4/5,80.0%,256,run_C_eval_20261114_113135,run_B_ingest_20261114_111859,0.17,0,0,5,0,results/eval_C_test_summary.json,chưa xác định (cần bảng giá API chính thức)

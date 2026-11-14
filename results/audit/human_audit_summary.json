@@ -1,0 +1,175 @@
+{
+  "status": "completed",
+  "reviewer": "Phạm Lý Ngọc Đức",
+  "fully_completed": true,
+  "coherence": {
+    "A": {
+      "mean_score": 1.0,
+      "scores": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "count": 10,
+      "score_distribution": {
+        "0": 0,
+        "1": 10,
+        "2": 0
+      }
+    },
+    "B": {
+      "mean_score": 1.9,
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2
+      ],
+      "count": 10,
+      "score_distribution": {
+        "0": 0,
+        "1": 1,
+        "2": 9
+      }
+    },
+    "C": {
+      "mean_score": 1.9,
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2
+      ],
+      "count": 10,
+      "score_distribution": {
+        "0": 0,
+        "1": 1,
+        "2": 9
+      }
+    }
+  },
+  "grounding": {
+    "A": {
+      "mean_score": 1.6,
+      "scores": [
+        2,
+        1,
+        2,
+        1,
+        2
+      ],
+      "count": 5,
+      "score_distribution": {
+        "0": 0,
+        "1": 2,
+        "2": 3
+      }
+    },
+    "B": {
+      "mean_score": 1.8,
+      "scores": [
+        2,
+        2,
+        2,
+        1,
+        2
+      ],
+      "count": 5,
+      "score_distribution": {
+        "0": 0,
+        "1": 1,
+        "2": 4
+      }
+    },
+    "C": {
+      "mean_score": 1.8,
+      "scores": [
+        2,
+        2,
+        2,
+        1,
+        2
+      ],
+      "count": 5,
+      "score_distribution": {
+        "0": 0,
+        "1": 1,
+        "2": 4
+      }
+    }
+  },
+  "scope": "Human-submitted coherence and grounding scores only; metadata human verification is pending.",
+  "submitted_scores_file": "results/audit/human_scores_submitted.json",
+  "submitted_scores_sha256": "ddd5af09b4b25bc5339e1e5695d48413e1a6226cf0240b16b546349376bb0332",
+  "coherence_C_mapping": "Copied from user-scored shared B/C UI field after verifying identical B/C chunk IDs for all 10 anchors.",
+  "human_notes_provided": false,
+  "ai_proposals_visible_on_request": true,
+  "metadata_human_review_status": "pending",
+  "metadata_assisted_review": {
+    "reviewer": "Codex",
+    "records_checked": 45,
+    "records_matching_fresh_pdf_extraction": 45,
+    "human_identity_not_assumed": true,
+    "source_visual_review": "results/audit/source_visual_review.md"
+  },
+  "assisted_review_disagreements": {
+    "coherence": [
+      {
+        "anchor_id": 5,
+        "strategies": [
+          "B",
+          "C"
+        ],
+        "submitted_score": 2,
+        "assisted_score": 1,
+        "reason": "EFA threshold cut at (<0. in the reviewed chunk."
+      }
+    ],
+    "grounding": [
+      {
+        "strategy": "A",
+        "question_id": "test_02",
+        "submitted_score": 1,
+        "assisted_score": 2,
+        "reason": "H1 and H5 evidence can be combined within top-3."
+      },
+      {
+        "strategy": "A",
+        "question_id": "test_04",
+        "submitted_score": 1,
+        "assisted_score": 2,
+        "reason": "Top-1 contains equivalent survey dates."
+      },
+      {
+        "strategies": [
+          "B",
+          "C"
+        ],
+        "question_id": "test_04",
+        "submitted_score": 1,
+        "assisted_score": 0,
+        "reason": "Returned context does not provide the requested date interval."
+      }
+    ]
+  },
+  "final_review_status": "Submitted scores preserved; assisted source/metadata review and notes complete; methodological differences disclosed."
+}

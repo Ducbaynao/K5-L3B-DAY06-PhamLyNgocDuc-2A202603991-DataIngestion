@@ -8,3 +8,16 @@ __pycache__/
 .DS_Store
 .pytest_cache/
 *.sqlite
+
+/data/raw/
+/data/extracted/
+.cache/
+starter/.cache/
+results/*_trace.json
+results/**/*_trace.json
+results/audit/*_text.*
+results/audit/*_raw.*
+results/audit/local_text/
+
+
+

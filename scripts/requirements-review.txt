@@ -1,0 +1,3 @@
+# Optional local PDF visual review only; not needed to run retrieval.
+pypdfium2==5.15.2
+Pillow==13.0.0

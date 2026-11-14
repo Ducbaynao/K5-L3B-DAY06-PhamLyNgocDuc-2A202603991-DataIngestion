@@ -1,0 +1,57 @@
+{
+  "snapshot_id": "pre_test_freeze_20261114_113100",
+  "timestamp": "2026-11-14 11:31:12",
+  "purpose": "Đóng băng cấu hình toàn bộ pipeline trước khi thực hiện retrieval trên tập test",
+  "selected_strategy_pre_test": "C",
+  "selection_record": "results/dev_selection.md",
+  "benchmark": {
+    "path": "benchmark/questions.jsonl",
+    "sha256": "ed0be0f44f105e00ef83b1150525226f4073621b03beed783e94a56b63305796",
+    "total_questions": 20,
+    "dev_questions": 15,
+    "test_questions": 5
+  },
+  "corpus": {
+    "extracted_pages_sha256": "003f1b47360f6a73b535e41524ec8d9ab91ad90e7220416147682787f91834b2",
+    "raw_pdf_sha256": "3382820c1edb8c2598bc3c033742e864bf7848f5e9485f6dd3ca1e8391014742",
+    "total_pages": 84,
+    "total_characters": 153080
+  },
+  "frozen_indexes": {
+    "strategy_A": {
+      "index_run_id": "run_A_ingest_20261114_105804",
+      "chunks_count": 375,
+      "chunk_config": {
+        "chunking": "fixed_size",
+        "chunk_size": 500,
+        "overlap": 50
+      }
+    },
+    "strategy_B": {
+      "index_run_id": "run_B_ingest_20261114_111859",
+      "chunks_count": 256,
+      "chunk_config": {
+        "chunking": "by_paragraph",
+        "max_size": 800
+      }
+    },
+    "strategy_C": {
+      "reuses_index": "strategy_B",
+      "index_run_id": "run_B_ingest_20261114_111859",
+      "chunks_count": 256,
+      "filtering": "metadata section matching query filter"
+    }
+  },
+  "code_checksums": {
+    "starter/src/chunking.py": "ea7673685af3daf78a51c0dc7abdc2c61b9ebf563128d168fee2aa761f4c41bd",
+    "starter/src/run.py": "18061e79f87a72c6369072c057a8056a7cc09d376b64935e09cd30199e32d0f7",
+    "starter/src/store.py": "960d745cc864a8ac392fad97d88c70867597f79448731bd42dbe95e3b0b840fa",
+    "starter/src/embeddings.py": "480f6ca345917b21b9d253f9fc0a80fa9f93f9b58ba08042a776af608faedfc6",
+    "starter/src/evaluation.py": "ee061548b1d3a6604984defb50a10a1504510bf48fbe35db1dfd16677d06dfca"
+  },
+  "disclosures": {
+    "paragraph_chunk_lengths": "Chiến lược B có 2 chunk có độ dài vượt 800 ký tự (tối đa 943 ký tự) do cơ chế gộp câu để tránh phân mảnh đoạn; hành vi này được ghi nhận nguyên vẹn, không chỉnh sửa.",
+    "evidence_containment_checked": "Đã kiểm tra cơ học sự bao hàm bằng chứng của cả 20 câu benchmark trong quá trình phát triển B trước test; không tuyên bố tập test hoàn toàn chưa từng được xem xét.",
+    "holdout_protocol": "Chưa có lượt chạy retrieval nào trên 5 câu test được thực hiện trước thời điểm snapshot này."
+  }
+}
